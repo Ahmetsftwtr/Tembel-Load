@@ -1,0 +1,14 @@
+.animation-active {
+    animation: 1s imageAnimation linear forwards;
+    -webkit-animation: 1s imageAnimation linear forwards;
+    -moz-animation: 1s imageAnimation linear forwards;
+    -o-animation: 1s imageAnimation linear forwards;
+}
+@keyframes imageAnimation {
+        from {
+            opacity: 0.3;
+        }
+        to {
+            opacity: 1;
+        }
+}
